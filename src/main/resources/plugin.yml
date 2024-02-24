@@ -1,0 +1,16 @@
+name: DisplayRealLifeTime
+version: '${version}'
+main: org.enichy.display_real_life_time.DisplayRealLifeTime
+api-version: '1.20'
+
+commands:
+  date:
+    description: Display the current date and time
+    usage: /data
+    aliases: [datetime]
+    permission: displayreallifetime.date
+  clear_scoreboard:
+    description: Clear the scoreboard
+    usage: /clear_scoreboard
+    permission: displayreallifetime.clearscoreboard
+    tab-completer: org.enichy.display_real_life_time.configuration.Tab_Manager
